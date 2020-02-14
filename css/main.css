@@ -330,6 +330,11 @@ textarea {
      text-align: center;
    }
 
+   .features i {
+	    font-size: 4em;
+      margin-bottom: 40px;
+}
+
    /* Reviews */
 
    .reviews {
