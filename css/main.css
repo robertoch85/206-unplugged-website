@@ -134,7 +134,7 @@ textarea {
      font-family: 'Poppins', sans-serif;
      font-size: 1.5em;
      font-weight: 500;
-     
+     margin: 20px 0;
    }
 
    p {
@@ -205,6 +205,9 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
      width: 60%;
+     font-size: 1.2;
+     font-weight: 700;
+     text-transform: uppercase;
    }
 
    header nav ul {
@@ -215,6 +218,7 @@ textarea {
 
    footer {
      flex-direction: column;
+     text-align: center;
    }
 
    footer p {
@@ -256,6 +260,13 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
    /* Aside */
 
    aside {
@@ -263,6 +274,10 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+   }
+
+   aside .form{
+     margin-top: 30px;
    }
 
    /* Features */
@@ -291,6 +306,7 @@ textarea {
 
    .features p {
      margin: 0;
+     text-align: center;
    }
 
    /* Reviews */
@@ -303,6 +319,7 @@ textarea {
 
    .reviews h2 {
      margin-bottom: 40px;
+     line-height: 1;
    }
 
    .reviews h3 {
@@ -357,6 +374,10 @@ textarea {
 
    .faq-content {
      margin-bottom: 50px;
+   }
+
+   .faq-content h4{
+     line-height: 1;
    }
 
 
