@@ -123,6 +123,11 @@ textarea {
      text-decoration: none;
    }
 
+   h1 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 4em;
+   }
+
    h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 2em;
@@ -143,7 +148,7 @@ textarea {
    }
 
    img {
-
+     width: 100%;
    }
 
    aside {
@@ -151,7 +156,7 @@ textarea {
    }
 
    figure {
-
+     margin: 0;
    }
 
    address {
@@ -183,6 +188,7 @@ textarea {
 
    header {
      padding: 15px 0;
+     background-color: black;
    }
 
    header .content-wrapper {
@@ -199,15 +205,25 @@ textarea {
      margin: 10px 0 20px 0;
    }
 
+   header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
    header nav {
      display: flex;
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
      width: 60%;
-     font-size: 1.2;
+     font-size: 1.4em;
      font-weight: 700;
      text-transform: uppercase;
+
    }
 
    header nav ul {
@@ -255,6 +271,9 @@ textarea {
    /* Hero Area */
 
    .hero-area {
+     background: url('../img/hero-image.jpg') center no-repeat;
+     background-size: cover;
+     min-height: 600px;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
@@ -286,6 +305,8 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url('../img/back-image.jpg') center no-repeat;
+     background-size: cover;
    }
 
    .features h2 {
@@ -323,7 +344,7 @@ textarea {
    }
 
    .reviews h3 {
-     width: 55%;
+     width: 60%;
      margin: 20px 0;
    }
 
@@ -514,6 +535,10 @@ input[type=button] {
         justify-content: space-between;
     }
 
+    header figure {
+      width: 40%;
+    }
+
     header nav {
         width: 25%;
     }
@@ -527,6 +552,11 @@ input[type=button] {
     }
 
     /* Hero Area */
+
+    .hero-area h1{
+      font-size: 3em;
+      margin-top: 0;
+    }
 
     /* Aside */
     aside .content-wrapper {
@@ -543,6 +573,8 @@ input[type=button] {
     }
 
     /* Features */
+
+
 
     .features article {
         display: flex;
@@ -562,8 +594,13 @@ input[type=button] {
         justify-content: space-between;
     }
 
+    .reviews figure{
+      width: 49%;
+    }
+
     .reviews article div {
         width: 49%;
+        font-size: 0.9em;
     }
 
     /* Footer */
@@ -638,32 +675,51 @@ input[type=button] {
     }
 
      /* Hero */
+
+    .hero-area {
+      min-height: 775px;
+    }
     .hero-area h1 {
-        width: 100%;
+        width: 80%;
+        font-size: 3.5em;
     }
 
     /* Aside */
     aside .content-wrapper {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-        width: 40%
+        width: 30%
     }
 
     /* Features */
     .features h2 {
-        width: 100%;
+        width: 80%;
+        font-size: 2em;
     }
 
     .features article {
-        flex-basis: 30%;
+        flex-basis: 33%;
     }
 
     /* Reviews */
     .reviews article div {
         width: 40%;
+    }
+
+    .reviews article figure{
+      width: 50%;
+    }
+
+    .reviews h3{
+      font-size: 1.7em;
+    }
+
+    .reviews p{
+      font-size: 1.2em;
+      line-height: 1.5;
     }
 
 /* ==========================================================================
