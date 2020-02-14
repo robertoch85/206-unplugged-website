@@ -353,6 +353,7 @@ textarea {
       ========================================================================== */
 
    .mission {
+     background-color: darkgreen;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -375,6 +376,7 @@ textarea {
       ========================================================================== */
 
    .faq {
+     background-color: darkgreen;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -395,6 +397,7 @@ textarea {
 
    .faq-content {
      margin-bottom: 50px;
+     font-size: 0.8em;
    }
 
    .faq-content h4{
@@ -740,6 +743,7 @@ input[type=button] {
    ========================================================================== */
     .faq h2 {
         width: 100%;
+        font-size: 2.5em;
     }
 
     .faq-content {
