@@ -257,6 +257,10 @@ textarea {
    }
 
    footer .social-icons p {
+     background-color: #006400;
+     border-radius: 50%;
+     width: 45px;
+     height: 45px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -356,7 +360,7 @@ textarea {
    /************** SOCIAL ICONS *************************/
    .social i {
       font-size: 2em;
-      padding-right: 10px;
+
 
    }
 
@@ -650,6 +654,12 @@ input[type=button] {
     footer .contact {
         margin-bottom: 0;
     }
+
+    footer .social-icons {
+  
+    justify-content: space-between;
+
+}
 
     footer .copyright {
         width: 100%;
